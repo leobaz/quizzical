@@ -1,0 +1,121 @@
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Home */
+.home {
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: #293264;
+  text-align: center;
+}
+
+.home .title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.home .description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.home .start-button {
+  font-family: "Inter";
+  font-style: normal;
+  width: 190px;
+  height: 50px;
+  background: #4d5b9e;
+  color: #ffffff;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+/* Quiz */
+.quiz {
+  margin: 0 30px;
+}
+
+.quiz-title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  color: #293264;
+}
+
+.tile {
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  color: #293264;
+  padding: 3px 13px;
+  margin-right: 20px;
+}
+
+.tile.active {
+  background: #d6dbf5;
+  border-color: transparent;
+}
+
+.quiz hr {
+  margin: 30px 0;
+  border-color: #dbdef0;
+}
+
+.check-button {
+  background: #4d5b9e;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  color: #f5f7fb;
+  border-color: transparent;
+  height: 35px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.tile.active.incorrect {
+  background-color: #f8bcbc;
+}
+.tile.correct {
+  background-color: #94d7a2;
+}
+
+.score-container {
+  text-align: center;
+}
+
+.score-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+  padding-right: 20px;
+}
